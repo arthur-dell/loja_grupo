@@ -1,7 +1,14 @@
-img{
-    width: 200px;
-    margin: 12px;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+img{
+    width: 150px;
+    display: block;
+}
+
 header{
     background-color: rgb(25, 98, 153);
 }
