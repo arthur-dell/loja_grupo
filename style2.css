@@ -36,12 +36,3 @@ header a {
 body {
     background-color:#E0E0E0;
 }
-
-div {
-    width: fit-content;
-    margin-inline: auto;
-    padding: 20px;
-    background: oklch(42.4% 0.199 265.638);
-}
-
-
