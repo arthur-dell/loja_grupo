@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 img{
@@ -16,11 +17,7 @@ header {
     align-items: center;
     min-height: 60px;
     padding: 0 20px;
-    background: linear-gradient(to bottom ,#1A4E8A , #FAFAFA );
     height: 100px;
-    nav:hover{
-        transform: scale(1.1);
-    }
 }
 
 header nav {
@@ -32,6 +29,12 @@ header a {
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+header a:hover {
+    transform: scale(1.1);
 }
 
 body {
@@ -40,16 +43,47 @@ body {
 
 div {
     width: 700px;
-    height: 700px;
+    height: auto;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Roboto' , sans-serif;
-    background-color: ;
     margin-block: 20px;
     border-radius: 20px;
     background-color: #FFFFFF;
 }
+
+p,ul, li {
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+h1{
+    margin-bottom: 20px;
+    color: #002147;
+    font-size: 35px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #003366;
+}
+
+hr {
+    width: 250px;
+    margin-left: 200px;
+    height: 2px;
+    border: none;
+    background-color: black;
+}
+
+li::marker{
+    color: yellow;
+}
+
+
 
 
 
